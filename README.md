@@ -73,3 +73,29 @@ The output `vectors_one_hot[0]` shows the vectors for the words in the first sen
 [[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
  [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
 ```
+
+**If you encounter errors when running the notebook, make sure you have executed these installation and download steps in your environment:**
+
+1.  **Install the Libraries:**
+
+    ```bash
+    pip install nltk spacy
+    ```
+
+2.  **Download the NLTK Stopwords Data:**
+    (Run this once in a Python environment or within a notebook cell)
+
+    ```python
+    import nltk
+    nltk.download('punkt') # Needed for word_tokenize and sent_tokenize
+    nltk.download('stopwords')
+    ```
+
+3.  **Download the spaCy Language Model:**
+    (Run this command in your terminal/command prompt, not in Python)
+
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
+
+Once these steps are complete, the commands in the notebook, like `stopwords.words('english')` and `spacy.load("en_core_web_sm")`, will execute successfully.
