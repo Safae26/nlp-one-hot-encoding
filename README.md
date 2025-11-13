@@ -6,7 +6,7 @@ The goal is to take a raw text corpus and transform it into a numerical format t
 
 -----
 
-## 🛠️ Dependencies
+## Dependencies
 
 This notebook relies on the following popular Python libraries for NLP tasks:
 
