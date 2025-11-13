@@ -1,4 +1,4 @@
-# NLP Preprocessing & One-Hot Encoding Hands On
+# Preprocessing & One-Hot Encoding Hands On
 
 Hello there, fellow AI enthusiast\! 👋 This Jupyter Notebook is a hands-on exercise exploring the initial stages of **Natural Language Processing (NLP)**, specifically focusing on **text preprocessing** and the classic method of **One-Hot Vector Representation** for words.
 
